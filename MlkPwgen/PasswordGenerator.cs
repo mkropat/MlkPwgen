@@ -44,11 +44,16 @@ namespace MlkPwgen
 
         public static string GenerateComplex(int length, IEnumerable<string> requiredSets)
         {
-            var asSets = requiredSets.Select(s => new HashSet<char>(s));
-            return GenerateComplex(length, asSets.ToList());
+            return GenerateComplex(length, requiredSets, _ => true);
         }
 
-        public static string GenerateComplex(int length, IReadOnlyCollection<HashSet<char>> requiredSets)
+        public static string GenerateComplex(int length, IEnumerable<string> requiredSets, Func<string, bool> predicate)
+        {
+            var asSets = requiredSets.Select(s => new HashSet<char>(s));
+            return GenerateComplex(length, asSets.ToList(), predicate);
+        }
+
+        public static string GenerateComplex(int length, IReadOnlyCollection<HashSet<char>> requiredSets, Func<string,bool> predicate)
         {
             if (length < requiredSets.Count)
                 throw new ArgumentOutOfRangeException("length", "length cannot be less than the number of requiredSets.");
@@ -58,7 +63,8 @@ namespace MlkPwgen
             while (true)
             {
                 var password = Generate(length, allowed);
-                if (requiredSets.All(s => s.Overlaps(password)))
+                var allRequiredMatch = requiredSets.All(s => s.Overlaps(password));
+                if (allRequiredMatch && predicate(password))
                     return password;
             }
         }

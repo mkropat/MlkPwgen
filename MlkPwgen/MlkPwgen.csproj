@@ -62,6 +62,7 @@
     <EmbeddedResource Include="TrigramStatistics.json.gz" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="MlkPwgen.nuspec" />
     <None Include="MlkPwgen.ruleset" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
@@ -72,4 +73,7 @@
   <Target Name="AfterBuild">
   </Target>
   -->
+  <Target Name="AfterBuild" Condition=" '$(Configuration)' == 'Release'">
+    <Exec Command="nuget pack MlkPwgen.csproj -Prop Configuration=Release"></Exec>
+  </Target>
 </Project>

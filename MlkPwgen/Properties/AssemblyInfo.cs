@@ -6,9 +6,9 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MlkPwgen")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Random password generator")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Michael Kropat")]
 [assembly: AssemblyProduct("MlkPwgen")]
 [assembly: AssemblyCopyright("Copyright © Michael Kropat 2016")]
 [assembly: AssemblyTrademark("")]

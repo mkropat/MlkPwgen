@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!-- Generated with: nuget spec -->
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/mkropat/MlkPwgen/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/mkropat/MlkPwgen</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Random password generator.
+Uses cryptographically secure PRNG.
+Can guarantee password contains digits, special characters, etc.
+Can generate pronounceable passwords.
+Has PowerShell CLI interface.</description>
+    <releaseNotes>0.1.0 - Initial release.</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>random password generator pronounceable</tags>
+  </metadata>
+</package>

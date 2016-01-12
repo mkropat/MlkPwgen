@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("MlkPwgen.FrequencyCounter")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Rackspace")]
-[assembly: AssemblyProduct("MlkPwgen.FrequencyCounter")]
-[assembly: AssemblyCopyright("Copyright © Rackspace 2016")]
+[assembly: AssemblyCompany("Michael Kropat")]
+[assembly: AssemblyProduct("MlkPwgen")]
+[assembly: AssemblyCopyright("Copyright © Michael Kropat 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("0.1.0.0")]
+//[assembly: AssemblyFileVersion("0.0.0.0")]

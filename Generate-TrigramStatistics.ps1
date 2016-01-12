@@ -18,8 +18,7 @@ function Get-Wordlist {
     $filename
 }
 
-function Get-ScriptDirectory
-{
+function Get-ScriptDirectory {
     Split-Path $script:MyInvocation.MyCommand.Path
 }
 

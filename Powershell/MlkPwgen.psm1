@@ -1,6 +1,4 @@
-﻿Add-Type -Path .\MlkPwgen\bin\Debug\MlkPwgen.dll
-
-function New-Password {
+﻿function New-Password {
     param(
         [int] $Length = 10,
         [switch] $Lower,

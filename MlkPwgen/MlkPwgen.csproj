@@ -74,6 +74,10 @@
   </Target>
   -->
   <Target Name="AfterBuild" Condition=" '$(Configuration)' == 'Release'">
+    <ItemGroup>
+      <ModuleFiles Include="$(ProjectDir)\..\Powershell\*.*" />
+    </ItemGroup>
     <Exec Command="nuget pack MlkPwgen.csproj -Prop Configuration=Release"></Exec>
+    <Copy SourceFiles="@(ModuleFiles)" DestinationFolder="$(OutputPath)" />
   </Target>
 </Project>

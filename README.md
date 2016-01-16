@@ -88,3 +88,11 @@ Then calling the library is as simple as:
 ```csharp
 Console.WriteLine(PasswordGenerator.Generate());
 ```
+
+## Pronounceable Password Algorithm
+
+Credit for the algorithm used to generate pronounceable password [goes to Tom Van Vleck](http://www.multicians.org/thvv/gpw-js.html). I've made a few changes along the way:
+
+- The algorithm has been modified to take into account word endings
+- The data tables have been generated from a new source
+- I added the ability to mix in random character sets (such as digits and symbols) into the generated password

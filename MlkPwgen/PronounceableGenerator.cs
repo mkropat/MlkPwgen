@@ -117,7 +117,7 @@ namespace MlkPwgen
 
                 word.Append(next);
 
-                prev = Tuple.Create(prev.Item1, next);
+                prev = Tuple.Create(prev.Item2, next);
             }
 
             return word.ToString();

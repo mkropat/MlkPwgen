@@ -3,6 +3,9 @@ using System.Security.Cryptography;
 
 namespace MlkPwgen
 {
+    /// <summary>
+    /// Implementation of <see cref="Random"/> that wraps <see cref="RNGCryptoServiceProvider"/>
+    /// </summary>
     public sealed class CryptoServiceRandom : Random, IDisposable
     {
         byte[] _buf = new byte[sizeof(uint) * 64];

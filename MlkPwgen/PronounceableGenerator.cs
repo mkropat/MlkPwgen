@@ -5,6 +5,9 @@ using System.Text;
 
 namespace MlkPwgen
 {
+    /// <summary>
+    /// Random pronounceable password generator
+    /// </summary>
     public static class PronounceableGenerator
     {
         public static string Generate(int length=10, IEnumerable<string> requiredSets=null, Func<string, bool> predicate=null)

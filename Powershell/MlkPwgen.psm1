@@ -10,23 +10,23 @@
     )
     
     if ($Lower) {
-        $RequiredSets += [MlkPwgen.Classes]::Lower
+        $RequiredSets += [MlkPwgen.Sets]::Lower
     }
     if ($Upper) {
-        $RequiredSets += [MlkPwgen.Classes]::Upper
+        $RequiredSets += [MlkPwgen.Sets]::Upper
     }
     if ($Digits) {
-        $RequiredSets += [MlkPwgen.Classes]::Digits
+        $RequiredSets += [MlkPwgen.Sets]::Digits
     }
     if ($Symbols) {
-        $RequiredSets += [MlkPwgen.Classes]::Symbols
+        $RequiredSets += [MlkPwgen.Sets]::Symbols
     }
 
     if (-not $RequiredSets) {
         $RequiredSets = @(
-            [MlkPwgen.Classes]::Lower,
-            [MlkPwgen.Classes]::Upper,
-            [MlkPwgen.Classes]::Digits
+            [MlkPwgen.Sets]::Lower,
+            [MlkPwgen.Sets]::Upper,
+            [MlkPwgen.Sets]::Digits
         )
     }
 
@@ -53,10 +53,10 @@ function New-PronounceablePassword {
     )
 
     if ($Digits) {
-        $RequiredSets += [MlkPwgen.Classes]::Digits
+        $RequiredSets += [MlkPwgen.Sets]::Digits
     }
     if ($Symbols) {
-        $RequiredSets += [MlkPwgen.Classes]::Symbols
+        $RequiredSets += [MlkPwgen.Sets]::Symbols
     }
 
     if ($Predicate) {

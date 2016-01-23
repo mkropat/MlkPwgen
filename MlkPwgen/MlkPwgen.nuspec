@@ -10,12 +10,15 @@
     <licenseUrl>https://github.com/mkropat/MlkPwgen/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/mkropat/MlkPwgen</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Random password generator.
-Uses cryptographically secure PRNG.
-Can guarantee password contains digits, special characters, etc.
-Can generate pronounceable passwords.
-Has PowerShell CLI interface.</description>
-    <releaseNotes>0.1.0 - Initial release.</releaseNotes>
+    <summary>Secure random password generator.</summary>
+    <description>Secure random password generator.
+Uses a cryptographically secure PRNG
+Can guarantee that the password contains digits, special characters, or any other set
+Can generate pronounceable, easier-to-remember passwords
+Packaged as a .NET library and as a PowerShell module
+API Documentation available at the project site</description>
+    <releaseNotes>0.2.0 - Add documentation
+0.1.0 - Initial release</releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>random password generator pronounceable</tags>
   </metadata>

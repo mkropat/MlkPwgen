@@ -16,7 +16,7 @@ Benefits at a glance:
 With [PowerShell 5](https://www.powershellgallery.com/Content/Images/arrow.png), installation is as simple as:
 
     Install-Module MlkPwgen
-    
+
 ### Usage
 
 Generate a handful of passwords:
@@ -88,6 +88,10 @@ Then calling the library is as simple as:
 ```csharp
 Console.WriteLine(PasswordGenerator.Generate());
 ```
+
+Check out the [API
+Documentation](http://www.codetinkerer.com/MlkPwgen/.net/html/4af4c04a-d525-8e81-133e-679872b3984f.htm)
+for full details.
 
 ## Pronounceable Password Algorithm
 

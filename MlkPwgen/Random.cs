@@ -4,10 +4,19 @@ using System.Linq;
 
 namespace MlkPwgen
 {
+    /// <summary>
+    /// Exposes a source of randomness
+    /// </summary>
     public abstract class Random
     {
+        /// <summary>
+        /// Returns a random number between 0 and <c>uint.MaxValue</c> inclusive
+        /// </summary>
         public abstract uint GetNum();
 
+        /// <summary>
+        /// Returns a random number between 0 and <paramref name="maxInclusive"/> inclusive
+        /// </summary>
         public virtual uint GetNum(uint maxInclusive)
         {
             if (maxInclusive == 0)
@@ -25,6 +34,9 @@ namespace MlkPwgen
             return (uint)(choice % maxExclusive);
         }
 
+        /// <summary>
+        /// Returns a random number between 0 and <paramref name="maxInclusive"/> inclusive
+        /// </summary>
         public virtual int GetNum(int maxInclusive)
         {
             if (maxInclusive < 0)
@@ -33,17 +45,26 @@ namespace MlkPwgen
             return (int)GetNum((uint)maxInclusive);
         }
 
+        /// <summary>
+        /// Returns an infinite stream of random numbers between 0 and <paramref name="maxInclusive"/> inclusive
+        /// </summary>
         public virtual IEnumerable<int> GetNumStream(int maxInclusive)
         {
             while (true)
                 yield return GetNum(maxInclusive);
         }
 
+        /// <summary>
+        /// Returns one item from <paramref name="items"/> chosen randomly
+        /// </summary>
         public virtual T Choose<T>(IEnumerable<T> items)
         {
             return Choose(new HashSet<T>(items));
         }
 
+        /// <summary>
+        /// Returns one item from <paramref name="set"/> chosen randomly
+        /// </summary>
         public virtual T Choose<T>(ISet<T> set)
         {
             if (set.Count == 0)
@@ -52,6 +73,9 @@ namespace MlkPwgen
             return set.ElementAt(GetNum(set.Count - 1));
         }
 
+        /// <summary>
+        /// Returns an infinite stream of randomly chosen items from <paramref name="set"/>
+        /// </summary>
         public virtual IEnumerable<T> GetChoiceStream<T>(ISet<T> set)
         {
             if (set.Count == 0)
@@ -61,6 +85,9 @@ namespace MlkPwgen
                 .Select(n => set.ElementAt(n));
         }
 
+        /// <summary>
+        /// Returns <paramref name="items"/> in a random order
+        /// </summary>
         public virtual IEnumerable<T> Shuffle<T>(IReadOnlyList<T> items)
         {
             // The Fisher-Yates shuffle algorithm

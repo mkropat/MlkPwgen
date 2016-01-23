@@ -2,7 +2,10 @@
 
 namespace MlkPwgen
 {
-    public static class Classes
+    /// <summary>
+    /// Common character sets
+    /// </summary>
+    public static class Sets
     {
         public const string Lower = "abcdefghijklmnopqrstuvwxyz";
         public const string Upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

@@ -4,10 +4,16 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace MlkPwgen
+namespace MlkPwgen.FrequencyCounter
 {
+    /// <summary>
+    /// Generate trigram statistics from a wordlist
+    /// </summary>
     public static class TrigramFrequencyCounter
     {
+        /// <summary>
+        /// Convenience method to read in a wordlist from a file and then serialize the results to a new file
+        /// </summary>
         public static void Count(string wordlistPath, string outputPath)
         {
             var stats = Count(File.ReadLines(wordlistPath));

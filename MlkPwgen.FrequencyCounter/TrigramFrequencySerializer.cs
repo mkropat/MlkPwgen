@@ -2,7 +2,7 @@
 using System.IO.Compression;
 using System.Runtime.Serialization.Json;
 
-namespace MlkPwgen
+namespace MlkPwgen.FrequencyCounter
 {
     public static class TrigramFrequencySerializer
     {

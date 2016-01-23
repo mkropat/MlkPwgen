@@ -1,9 +1,9 @@
 ﻿function Main {
-    Add-Type -Path (Join-Path (Get-ScriptDirectory) .\MlkPwgen.FrequencyCounter\bin\Debug\MlkPwgen.FrequencyCounter.dll)
+    Add-Type -Path (Join-Path (Get-ScriptDirectory) .\MlkPwgen.FrequencyCounter\bin\Release\MlkPwgen.FrequencyCounter.dll)
 
     $wordlist = Get-Wordlist http://www.freescrabbledictionary.com/english-word-list/download/english.txt
 
-    [MlkPwgen.TrigramFrequencyCounter]::Count($wordlist, '.\MlkPwgen\TrigramStatistics.json.gz')
+    [MlkPwgen.FrequencyCounter.TrigramFrequencyCounter]::Count($wordlist, '.\MlkPwgen\TrigramStatistics.json.gz')
 }
 
 function Get-Wordlist {

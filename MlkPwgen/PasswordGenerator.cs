@@ -4,13 +4,18 @@ using System.Linq;
 
 namespace MlkPwgen
 {
+    /// <summary>
+    /// Random password generator
+    /// </summary>
     public static class PasswordGenerator
     {
-        public static string Generate(int length=10, string allowed=Classes.Alphanumerics)
+        /// <param name="allowed">The set of characters the password will be randomly made of</param>
+        public static string Generate(int length=10, string allowed=Sets.Alphanumerics)
         {
             return Generate(length, new HashSet<char>(allowed));
         }
 
+        /// <param name="allowed">The set of characters the password will be randomly made of</param>
         public static string Generate(int length, HashSet<char> allowed)
         {
             using (var random = new CryptoServiceRandom())
@@ -19,6 +24,7 @@ namespace MlkPwgen
             }
         }
 
+        /// <param name="allowed">The set of characters the password will be randomly made of</param>
         public static string Generate(int length, HashSet<char> allowed, Random random)
         {
             if (length < 0)
@@ -30,10 +36,12 @@ namespace MlkPwgen
             return random.GetChoiceStream(allowed).Take(length).AsString();
         }
 
+        /// <param name="requiredSets">The sets characters that the password must contain</param>
+        /// <param name="predicate">An arbitrary function that the password must match</param>
         public static string GenerateComplex(int length=10, IEnumerable<string> requiredSets=null, Func<string, bool> predicate=null)
         {
             if (requiredSets == null)
-                requiredSets = Classes.AlphanumericGroups;
+                requiredSets = Sets.AlphanumericGroups;
 
             if (predicate == null)
                 predicate = _ => true;
@@ -42,6 +50,8 @@ namespace MlkPwgen
             return GenerateComplex(length, asSets.ToList(), predicate);
         }
 
+        /// <param name="requiredSets">The sets characters that the password must contain</param>
+        /// <param name="predicate">An arbitrary function that the password must match</param>
         public static string GenerateComplex(int length, IReadOnlyCollection<HashSet<char>> requiredSets, Func<string, bool> predicate)
         {
             using (var random = new CryptoServiceRandom())
@@ -50,6 +60,8 @@ namespace MlkPwgen
             }
         }
 
+        /// <param name="requiredSets">The sets characters that the password must contain</param>
+        /// <param name="predicate">An arbitrary function that the password must match</param>
         public static string GenerateComplex(int length, IReadOnlyCollection<HashSet<char>> requiredSets, Func<string,bool> predicate, Random random)
         {
             if (length < requiredSets.Count)

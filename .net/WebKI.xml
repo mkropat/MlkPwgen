@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="AlphanumericGroups property" Url="html/98a54dfd-1428-b5d5-c6f8-4a9395ab95e6.htm" />
+  <HelpKINode Title="Alphanumerics field" Url="html/1cf7fc56-6f09-8d03-fb04-f964170c4bec.htm" />
+  <HelpKINode Title="Choose method" Url="html/5c9203b1-618e-4b35-2008-6a4d0dfd5e39.htm" />
+  <HelpKINode Title="Classes class">
+    <HelpKINode Title="Classes Class" Url="html/a07fb614-485f-6334-42bf-1eaabdef2efb.htm" />
+    <HelpKINode Title="about Classes class" Url="html/a07fb614-485f-6334-42bf-1eaabdef2efb.htm" />
+    <HelpKINode Title="fields" Url="html/c5a1a647-e17f-e71c-b5c9-44e9231514fb.htm" />
+    <HelpKINode Title="properties" Url="html/dfd205c9-a94a-7add-5b8c-7d4101c2af74.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Classes.AlphanumericGroups property" Url="html/98a54dfd-1428-b5d5-c6f8-4a9395ab95e6.htm" />
+  <HelpKINode Title="Classes.Alphanumerics field" Url="html/1cf7fc56-6f09-8d03-fb04-f964170c4bec.htm" />
+  <HelpKINode Title="Classes.Digits field" Url="html/4ed13aac-628b-2927-09e4-b4dda79c8996.htm" />
+  <HelpKINode Title="Classes.FullSymbols field" Url="html/bbdb2d03-ce83-6c5c-13fb-d91632a03edf.htm" />
+  <HelpKINode Title="Classes.Lower field" Url="html/ed1219fe-3dbd-b48b-0a73-90c536498e4f.htm" />
+  <HelpKINode Title="Classes.Symbols field" Url="html/295eb512-08f9-7bbf-26fd-b9869f318da4.htm" />
+  <HelpKINode Title="Classes.Upper field" Url="html/d7276580-c8bd-d868-e2c8-f8c49b32f01c.htm" />
+  <HelpKINode Title="Count method" Url="html/b545148f-db39-a056-cbc3-0579ff51af8a.htm" />
+  <HelpKINode Title="Create(Of T) method" Url="html/e459646f-f630-537b-61da-71be219beb1f.htm" />
+  <HelpKINode Title="Create&lt;T&gt; method" Url="html/e459646f-f630-537b-61da-71be219beb1f.htm" />
+  <HelpKINode Title="CryptoServiceRandom class">
+    <HelpKINode Title="CryptoServiceRandom Class" Url="html/c4814afb-a5a9-7969-725e-8ac3eceee4d1.htm" />
+    <HelpKINode Title="about CryptoServiceRandom class" Url="html/c4814afb-a5a9-7969-725e-8ac3eceee4d1.htm" />
+    <HelpKINode Title="constructor" Url="html/369b1e6f-3219-d77e-573f-2d1c1371da90.htm" />
+    <HelpKINode Title="methods" Url="html/c80a5e65-fcb0-e14a-5a2b-fef857b378b9.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CryptoServiceRandom.CryptoServiceRandom constructor" Url="html/369b1e6f-3219-d77e-573f-2d1c1371da90.htm" />
+  <HelpKINode Title="CryptoServiceRandom.Dispose method" Url="html/9e705550-17dc-072d-52af-6675f83fec2e.htm" />
+  <HelpKINode Title="CryptoServiceRandom.GetNum method" Url="html/578900ac-a621-d87e-b545-418269d62d61.htm" />
+  <HelpKINode Title="Digits field" Url="html/4ed13aac-628b-2927-09e4-b4dda79c8996.htm" />
+  <HelpKINode Title="Dispose method" Url="html/9e705550-17dc-072d-52af-6675f83fec2e.htm" />
+  <HelpKINode Title="EmbeddedTrigramStatistics class">
+    <HelpKINode Title="EmbeddedTrigramStatistics Class" Url="html/cd76359b-1341-ecc2-d875-82bbc79b0516.htm" />
+    <HelpKINode Title="about EmbeddedTrigramStatistics class" Url="html/cd76359b-1341-ecc2-d875-82bbc79b0516.htm" />
+    <HelpKINode Title="methods" Url="html/20072139-2013-c3c4-f9a5-687ab6b03e8c.htm" />
+    <HelpKINode Title="properties" Url="html/8bd716e6-ba36-02b6-fd0c-941c6cbd1c74.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EmbeddedTrigramStatistics.Exists method" Url="html/31b2edc8-d154-eabf-446f-f597c68ce6cc.htm" />
+  <HelpKINode Title="EmbeddedTrigramStatistics.GetPrefixWeights method" Url="html/0e79ba43-e999-061b-e2f8-5d88ee172146.htm" />
+  <HelpKINode Title="EmbeddedTrigramStatistics.GetTrigramWeights method" Url="html/e05b66ca-b26a-cc0f-240f-921c4d67bd76.htm" />
+  <HelpKINode Title="EmbeddedTrigramStatistics.Instance property" Url="html/06090345-6119-3e2f-f8a7-18ea3675d058.htm" />
+  <HelpKINode Title="Exists method">
+    <HelpKINode Title="EmbeddedTrigramStatistics.Exists Method " Url="html/31b2edc8-d154-eabf-446f-f597c68ce6cc.htm" />
+    <HelpKINode Title="ITrigramStatistics.Exists Method " Url="html/6c61b08b-a756-93c2-0125-cf0322081705.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullSymbols field" Url="html/bbdb2d03-ce83-6c5c-13fb-d91632a03edf.htm" />
+  <HelpKINode Title="Generate method">
+    <HelpKINode Title="PasswordGenerator.Generate Method " Url="html/4deefc70-e151-e6af-5d6b-e84ff1308040.htm" />
+    <HelpKINode Title="PronounceableGenerator.Generate Method " Url="html/d40c2f35-1529-5f4b-3ae8-6c9c03ff1ad5.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GenerateComplex method" Url="html/01738416-03dd-9e45-2ca5-81bbb8965f17.htm" />
+  <HelpKINode Title="GetChoiceStream(Of T) method" Url="html/8ee48d7b-1ff5-514d-4fd5-8099aa41d28a.htm" />
+  <HelpKINode Title="GetChoiceStream&lt;T&gt; method" Url="html/8ee48d7b-1ff5-514d-4fd5-8099aa41d28a.htm" />
+  <HelpKINode Title="GetNum method">
+    <HelpKINode Title="CryptoServiceRandom.GetNum Method " Url="html/578900ac-a621-d87e-b545-418269d62d61.htm" />
+    <HelpKINode Title="Random.GetNum Method " Url="html/002a3f6c-0cc8-484a-82f0-709125df5142.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetNumStream method" Url="html/cae2071c-7e4c-a6ef-704e-690bdcc318c1.htm" />
+  <HelpKINode Title="GetPrefixWeights method">
+    <HelpKINode Title="EmbeddedTrigramStatistics.GetPrefixWeights Method " Url="html/0e79ba43-e999-061b-e2f8-5d88ee172146.htm" />
+    <HelpKINode Title="ITrigramStatistics.GetPrefixWeights Method " Url="html/3a6a7403-8242-69f4-62a6-304366589749.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GetTrigramWeights method">
+    <HelpKINode Title="EmbeddedTrigramStatistics.GetTrigramWeights Method " Url="html/e05b66ca-b26a-cc0f-240f-921c4d67bd76.htm" />
+    <HelpKINode Title="ITrigramStatistics.GetTrigramWeights Method " Url="html/acfeb32a-ea68-13ce-c3bf-7b83d88c7b54.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Instance property" Url="html/06090345-6119-3e2f-f8a7-18ea3675d058.htm" />
+  <HelpKINode Title="Item property" Url="html/773e0d0a-06f7-3113-2eef-ed9a3d3ad3c6.htm" />
+  <HelpKINode Title="ITrigramStatistics interface">
+    <HelpKINode Title="ITrigramStatistics Interface" Url="html/ae8f82ca-cd99-6d39-a21d-184bb56ee4cc.htm" />
+    <HelpKINode Title="about ITrigramStatistics interface" Url="html/ae8f82ca-cd99-6d39-a21d-184bb56ee4cc.htm" />
+    <HelpKINode Title="methods" Url="html/2fc04abb-535f-8087-3af7-6a4cdfeb32de.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ITrigramStatistics.Exists method" Url="html/6c61b08b-a756-93c2-0125-cf0322081705.htm" />
+  <HelpKINode Title="ITrigramStatistics.GetPrefixWeights method" Url="html/3a6a7403-8242-69f4-62a6-304366589749.htm" />
+  <HelpKINode Title="ITrigramStatistics.GetTrigramWeights method" Url="html/acfeb32a-ea68-13ce-c3bf-7b83d88c7b54.htm" />
+  <HelpKINode Title="Lower field" Url="html/ed1219fe-3dbd-b48b-0a73-90c536498e4f.htm" />
+  <HelpKINode Title="MlkPwgen namespace" Url="html/4af4c04a-d525-8e81-133e-679872b3984f.htm" />
+  <HelpKINode Title="MlkPwgen.Classes class" Url="html/a07fb614-485f-6334-42bf-1eaabdef2efb.htm" />
+  <HelpKINode Title="MlkPwgen.CryptoServiceRandom class" Url="html/c4814afb-a5a9-7969-725e-8ac3eceee4d1.htm" />
+  <HelpKINode Title="MlkPwgen.EmbeddedTrigramStatistics class" Url="html/cd76359b-1341-ecc2-d875-82bbc79b0516.htm" />
+  <HelpKINode Title="MlkPwgen.ITrigramStatistics interface" Url="html/ae8f82ca-cd99-6d39-a21d-184bb56ee4cc.htm" />
+  <HelpKINode Title="MlkPwgen.PasswordGenerator class" Url="html/3affd74b-f66f-8575-e60b-0446f5237f41.htm" />
+  <HelpKINode Title="MlkPwgen.PronounceableGenerator class" Url="html/918cf640-6552-d4c3-e35d-935f1ab979f3.htm" />
+  <HelpKINode Title="MlkPwgen.Random class" Url="html/e684d93b-fe9b-ca4a-f0a7-c23af59ab5e9.htm" />
+  <HelpKINode Title="MlkPwgen.SerializableTrigramStatistics class" Url="html/af51fc0d-73c2-f9f4-f305-2d0cc7ea21dd.htm" />
+  <HelpKINode Title="MlkPwgen.TrigramFrequencyCounter class" Url="html/ffff4422-ba91-aaf7-a1cc-63c771132dab.htm" />
+  <HelpKINode Title="MlkPwgen.TrigramFrequencySerializer class" Url="html/a8b24af7-9cc1-fcbd-d4b8-b7f484941337.htm" />
+  <HelpKINode Title="MlkPwgen.WeightedItem class" Url="html/fa0b186e-a8d2-b36a-8cf7-b2abf5176a1d.htm" />
+  <HelpKINode Title="MlkPwgen.WeightedItem(Of T) class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm" />
+  <HelpKINode Title="MlkPwgen.WeightedItem&lt;T&gt; class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm" />
+  <HelpKINode Title="PasswordGenerator class">
+    <HelpKINode Title="PasswordGenerator Class" Url="html/3affd74b-f66f-8575-e60b-0446f5237f41.htm" />
+    <HelpKINode Title="about PasswordGenerator class" Url="html/3affd74b-f66f-8575-e60b-0446f5237f41.htm" />
+    <HelpKINode Title="methods" Url="html/6de43381-f98f-9ba7-e190-05977552f3b1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PasswordGenerator.Generate method" Url="html/4deefc70-e151-e6af-5d6b-e84ff1308040.htm" />
+  <HelpKINode Title="PasswordGenerator.GenerateComplex method" Url="html/01738416-03dd-9e45-2ca5-81bbb8965f17.htm" />
+  <HelpKINode Title="PrefixWeights property" Url="html/8d2e7344-b44d-e754-1fc4-5dff5d9844d5.htm" />
+  <HelpKINode Title="PronounceableGenerator class">
+    <HelpKINode Title="PronounceableGenerator Class" Url="html/918cf640-6552-d4c3-e35d-935f1ab979f3.htm" />
+    <HelpKINode Title="about PronounceableGenerator class" Url="html/918cf640-6552-d4c3-e35d-935f1ab979f3.htm" />
+    <HelpKINode Title="methods" Url="html/e268c86e-8eac-3ca9-8c11-5cc1e2971473.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PronounceableGenerator.Generate method" Url="html/d40c2f35-1529-5f4b-3ae8-6c9c03ff1ad5.htm" />
+  <HelpKINode Title="Random class">
+    <HelpKINode Title="Random Class" Url="html/e684d93b-fe9b-ca4a-f0a7-c23af59ab5e9.htm" />
+    <HelpKINode Title="about Random class" Url="html/e684d93b-fe9b-ca4a-f0a7-c23af59ab5e9.htm" />
+    <HelpKINode Title="constructor" Url="html/f2b06bb7-cf82-12cc-a3eb-ae322bfda3df.htm" />
+    <HelpKINode Title="methods" Url="html/a962374f-00e1-3078-3b97-17745eb85b27.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Random.Choose method" Url="html/5c9203b1-618e-4b35-2008-6a4d0dfd5e39.htm" />
+  <HelpKINode Title="Random.GetChoiceStream(Of T) method" Url="html/8ee48d7b-1ff5-514d-4fd5-8099aa41d28a.htm" />
+  <HelpKINode Title="Random.GetChoiceStream&lt;T&gt; method" Url="html/8ee48d7b-1ff5-514d-4fd5-8099aa41d28a.htm" />
+  <HelpKINode Title="Random.GetNum method" Url="html/002a3f6c-0cc8-484a-82f0-709125df5142.htm" />
+  <HelpKINode Title="Random.GetNumStream method" Url="html/cae2071c-7e4c-a6ef-704e-690bdcc318c1.htm" />
+  <HelpKINode Title="Random.Random constructor" Url="html/f2b06bb7-cf82-12cc-a3eb-ae322bfda3df.htm" />
+  <HelpKINode Title="Random.Shuffle(Of T) method" Url="html/187df41d-bdb3-b80e-558f-759bdb5d2832.htm" />
+  <HelpKINode Title="Random.Shuffle&lt;T&gt; method" Url="html/187df41d-bdb3-b80e-558f-759bdb5d2832.htm" />
+  <HelpKINode Title="SerializableTrigramStatistics class">
+    <HelpKINode Title="SerializableTrigramStatistics Class" Url="html/af51fc0d-73c2-f9f4-f305-2d0cc7ea21dd.htm" />
+    <HelpKINode Title="about SerializableTrigramStatistics class" Url="html/af51fc0d-73c2-f9f4-f305-2d0cc7ea21dd.htm" />
+    <HelpKINode Title="constructor" Url="html/22b4ca12-7a44-00b7-c1d9-937b0e9aea10.htm" />
+    <HelpKINode Title="methods" Url="html/6217a47e-98ec-a3d2-a61a-13af72fcd49c.htm" />
+    <HelpKINode Title="properties" Url="html/36be0595-4ef7-fff4-0e2f-f54e3f273b76.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SerializableTrigramStatistics.PrefixWeights property" Url="html/8d2e7344-b44d-e754-1fc4-5dff5d9844d5.htm" />
+  <HelpKINode Title="SerializableTrigramStatistics.SerializableTrigramStatistics constructor" Url="html/22b4ca12-7a44-00b7-c1d9-937b0e9aea10.htm" />
+  <HelpKINode Title="SerializableTrigramStatistics.TrigramWeights property" Url="html/30f15a5a-86da-6d8d-0db5-bb24e1541fa0.htm" />
+  <HelpKINode Title="Serialize method" Url="html/3112a229-5b1e-9d4b-e6cd-2ddf3719be14.htm" />
+  <HelpKINode Title="SerializeToZip method" Url="html/532c6a11-7450-f384-71cd-caf68cb36eae.htm" />
+  <HelpKINode Title="Shuffle(Of T) method" Url="html/187df41d-bdb3-b80e-558f-759bdb5d2832.htm" />
+  <HelpKINode Title="Shuffle&lt;T&gt; method" Url="html/187df41d-bdb3-b80e-558f-759bdb5d2832.htm" />
+  <HelpKINode Title="Symbols field" Url="html/295eb512-08f9-7bbf-26fd-b9869f318da4.htm" />
+  <HelpKINode Title="TrigramFrequencyCounter class">
+    <HelpKINode Title="TrigramFrequencyCounter Class" Url="html/ffff4422-ba91-aaf7-a1cc-63c771132dab.htm" />
+    <HelpKINode Title="about TrigramFrequencyCounter class" Url="html/ffff4422-ba91-aaf7-a1cc-63c771132dab.htm" />
+    <HelpKINode Title="methods" Url="html/20d92e20-ddeb-dbd1-2bd3-14703948f8d2.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrigramFrequencyCounter.Count method" Url="html/b545148f-db39-a056-cbc3-0579ff51af8a.htm" />
+  <HelpKINode Title="TrigramFrequencySerializer class">
+    <HelpKINode Title="TrigramFrequencySerializer Class" Url="html/a8b24af7-9cc1-fcbd-d4b8-b7f484941337.htm" />
+    <HelpKINode Title="about TrigramFrequencySerializer class" Url="html/a8b24af7-9cc1-fcbd-d4b8-b7f484941337.htm" />
+    <HelpKINode Title="methods" Url="html/b810237d-5555-76b1-3976-4228947dda9b.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TrigramFrequencySerializer.Serialize method" Url="html/3112a229-5b1e-9d4b-e6cd-2ddf3719be14.htm" />
+  <HelpKINode Title="TrigramFrequencySerializer.SerializeToZip method" Url="html/532c6a11-7450-f384-71cd-caf68cb36eae.htm" />
+  <HelpKINode Title="TrigramWeights property" Url="html/30f15a5a-86da-6d8d-0db5-bb24e1541fa0.htm" />
+  <HelpKINode Title="Upper field" Url="html/d7276580-c8bd-d868-e2c8-f8c49b32f01c.htm" />
+  <HelpKINode Title="Weight property" Url="html/fa73b71f-1067-6fb4-a28c-7564cde7a547.htm" />
+  <HelpKINode Title="WeightedItem class">
+    <HelpKINode Title="WeightedItem Class" Url="html/fa0b186e-a8d2-b36a-8cf7-b2abf5176a1d.htm" />
+    <HelpKINode Title="about WeightedItem class" Url="html/fa0b186e-a8d2-b36a-8cf7-b2abf5176a1d.htm" />
+    <HelpKINode Title="methods" Url="html/4fbebdda-8c2d-9f44-0524-6acfb5a34e32.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeightedItem(Of T) class">
+    <HelpKINode Title="WeightedItem(T) Class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm" />
+    <HelpKINode Title="about WeightedItem(Of T) class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm" />
+    <HelpKINode Title="constructor" Url="html/170dfab7-7184-af84-4bac-f13aa5be72ec.htm" />
+    <HelpKINode Title="methods" Url="html/375547c7-db62-af2f-1f39-09a083126ca6.htm" />
+    <HelpKINode Title="properties" Url="html/25ce77df-7596-b772-e9f8-506bbac46994.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeightedItem(Of T).Item property" Url="html/773e0d0a-06f7-3113-2eef-ed9a3d3ad3c6.htm" />
+  <HelpKINode Title="WeightedItem(Of T).Weight property" Url="html/fa73b71f-1067-6fb4-a28c-7564cde7a547.htm" />
+  <HelpKINode Title="WeightedItem(Of T).WeightedItem constructor" Url="html/170dfab7-7184-af84-4bac-f13aa5be72ec.htm" />
+  <HelpKINode Title="WeightedItem.Create(Of T) method" Url="html/e459646f-f630-537b-61da-71be219beb1f.htm" />
+  <HelpKINode Title="WeightedItem.Create&lt;T&gt; method" Url="html/e459646f-f630-537b-61da-71be219beb1f.htm" />
+  <HelpKINode Title="WeightedItem&lt;T&gt; class">
+    <HelpKINode Title="WeightedItem(T) Class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm" />
+    <HelpKINode Title="about WeightedItem&lt;T&gt; class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm" />
+    <HelpKINode Title="constructor" Url="html/170dfab7-7184-af84-4bac-f13aa5be72ec.htm" />
+    <HelpKINode Title="methods" Url="html/375547c7-db62-af2f-1f39-09a083126ca6.htm" />
+    <HelpKINode Title="properties" Url="html/25ce77df-7596-b772-e9f8-506bbac46994.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WeightedItem&lt;T&gt;.Item property" Url="html/773e0d0a-06f7-3113-2eef-ed9a3d3ad3c6.htm" />
+  <HelpKINode Title="WeightedItem&lt;T&gt;.Weight property" Url="html/fa73b71f-1067-6fb4-a28c-7564cde7a547.htm" />
+  <HelpKINode Title="WeightedItem&lt;T&gt;.WeightedItem constructor" Url="html/170dfab7-7184-af84-4bac-f13aa5be72ec.htm" />
+</HelpKI>

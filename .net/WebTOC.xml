@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="8036563b-ac91-4bc9-87d1-93ce692ba85e" Title="MlkPwgen" Url="html/4af4c04a-d525-8e81-133e-679872b3984f.htm">
+    <HelpTOCNode Id="f7faa02e-1d80-420f-8ae9-b20e843438bf" Title="Classes Class" Url="html/a07fb614-485f-6334-42bf-1eaabdef2efb.htm">
+      <HelpTOCNode Id="456d38f6-745b-4ca6-8c89-5eacea5b79b4" Title="Classes Properties" Url="html/dfd205c9-a94a-7add-5b8c-7d4101c2af74.htm">
+        <HelpTOCNode Title="AlphanumericGroups Property " Url="html/98a54dfd-1428-b5d5-c6f8-4a9395ab95e6.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="996fc5fa-3b35-43d0-9463-4afb0fd580e5" Title="Classes Fields" Url="html/c5a1a647-e17f-e71c-b5c9-44e9231514fb.htm">
+        <HelpTOCNode Title="Alphanumerics Field" Url="html/1cf7fc56-6f09-8d03-fb04-f964170c4bec.htm" />
+        <HelpTOCNode Title="Digits Field" Url="html/4ed13aac-628b-2927-09e4-b4dda79c8996.htm" />
+        <HelpTOCNode Title="FullSymbols Field" Url="html/bbdb2d03-ce83-6c5c-13fb-d91632a03edf.htm" />
+        <HelpTOCNode Title="Lower Field" Url="html/ed1219fe-3dbd-b48b-0a73-90c536498e4f.htm" />
+        <HelpTOCNode Title="Symbols Field" Url="html/295eb512-08f9-7bbf-26fd-b9869f318da4.htm" />
+        <HelpTOCNode Title="Upper Field" Url="html/d7276580-c8bd-d868-e2c8-f8c49b32f01c.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="df13f77c-ec30-4ecd-9ce9-04069d7dfa2f" Title="CryptoServiceRandom Class" Url="html/c4814afb-a5a9-7969-725e-8ac3eceee4d1.htm">
+      <HelpTOCNode Id="37b69175-8634-44d8-9250-1ad248fdcd90" Title="CryptoServiceRandom Constructor " Url="html/369b1e6f-3219-d77e-573f-2d1c1371da90.htm">
+        <HelpTOCNode Title="CryptoServiceRandom Constructor " Url="html/03120c19-9268-899b-ed1d-791ad1b1f196.htm" />
+        <HelpTOCNode Title="CryptoServiceRandom Constructor (RandomNumberGenerator)" Url="html/54bddcd4-1241-d1bc-0612-2fb703805174.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="28470515-d858-4514-b92b-5c1f0aece47f" Title="CryptoServiceRandom Methods" Url="html/c80a5e65-fcb0-e14a-5a2b-fef857b378b9.htm">
+        <HelpTOCNode Title="Dispose Method " Url="html/9e705550-17dc-072d-52af-6675f83fec2e.htm" />
+        <HelpTOCNode Id="149b648d-1a2c-4a5c-8778-4935dd2c3775" Title="GetNum Method " Url="html/578900ac-a621-d87e-b545-418269d62d61.htm">
+          <HelpTOCNode Title="GetNum Method " Url="html/a29fa880-d5b2-8e86-1ad8-b7a8feb5556c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6b1e8248-8dba-452c-8286-45282cf40668" Title="EmbeddedTrigramStatistics Class" Url="html/cd76359b-1341-ecc2-d875-82bbc79b0516.htm">
+      <HelpTOCNode Id="dc3053ae-ac0e-4165-9648-1ac5dcd98fde" Title="EmbeddedTrigramStatistics Properties" Url="html/8bd716e6-ba36-02b6-fd0c-941c6cbd1c74.htm">
+        <HelpTOCNode Title="Instance Property " Url="html/06090345-6119-3e2f-f8a7-18ea3675d058.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="26fafb24-eabd-46f5-ae29-faec100c4a61" Title="EmbeddedTrigramStatistics Methods" Url="html/20072139-2013-c3c4-f9a5-687ab6b03e8c.htm">
+        <HelpTOCNode Title="Exists Method " Url="html/31b2edc8-d154-eabf-446f-f597c68ce6cc.htm" />
+        <HelpTOCNode Title="GetPrefixWeights Method " Url="html/0e79ba43-e999-061b-e2f8-5d88ee172146.htm" />
+        <HelpTOCNode Title="GetTrigramWeights Method " Url="html/e05b66ca-b26a-cc0f-240f-921c4d67bd76.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3536dcc5-1018-4826-8e98-3a28efbd731c" Title="ITrigramStatistics Interface" Url="html/ae8f82ca-cd99-6d39-a21d-184bb56ee4cc.htm">
+      <HelpTOCNode Id="e57ebd41-f7f3-4bdf-8a3c-68656dfcfbf1" Title="ITrigramStatistics Methods" Url="html/2fc04abb-535f-8087-3af7-6a4cdfeb32de.htm">
+        <HelpTOCNode Title="Exists Method " Url="html/6c61b08b-a756-93c2-0125-cf0322081705.htm" />
+        <HelpTOCNode Title="GetPrefixWeights Method " Url="html/3a6a7403-8242-69f4-62a6-304366589749.htm" />
+        <HelpTOCNode Title="GetTrigramWeights Method " Url="html/acfeb32a-ea68-13ce-c3bf-7b83d88c7b54.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="14cf1a75-1c7d-4137-8fef-676d35df1ba9" Title="PasswordGenerator Class" Url="html/3affd74b-f66f-8575-e60b-0446f5237f41.htm">
+      <HelpTOCNode Id="e935ce8d-be49-4310-9640-d65e89641233" Title="PasswordGenerator Methods" Url="html/6de43381-f98f-9ba7-e190-05977552f3b1.htm">
+        <HelpTOCNode Id="5df395a9-ec43-4d36-b3c5-f67a17153e3f" Title="Generate Method " Url="html/4deefc70-e151-e6af-5d6b-e84ff1308040.htm">
+          <HelpTOCNode Title="Generate Method (Int32, HashSet(Char))" Url="html/9595fc3c-e745-a29f-858a-24996bf181ba.htm" />
+          <HelpTOCNode Title="Generate Method (Int32, String)" Url="html/cd412bef-5ead-fd9c-0ab2-5058c3b31d03.htm" />
+          <HelpTOCNode Title="Generate Method (Int32, HashSet(Char), Random)" Url="html/fb065c51-530f-768b-49d5-ebd1aa3f162b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="aac30408-7e07-48dd-b738-8c0b6a72ba2f" Title="GenerateComplex Method " Url="html/01738416-03dd-9e45-2ca5-81bbb8965f17.htm">
+          <HelpTOCNode Title="GenerateComplex Method (Int32, IEnumerable(String), Func(String, Boolean))" Url="html/5c458703-190d-9fec-b34f-97cf48dd21a2.htm" />
+          <HelpTOCNode Title="GenerateComplex Method (Int32, IReadOnlyCollection(HashSet(Char)), Func(String, Boolean))" Url="html/e65bb837-e23c-87b8-d3f6-497c4096c3a8.htm" />
+          <HelpTOCNode Title="GenerateComplex Method (Int32, IReadOnlyCollection(HashSet(Char)), Func(String, Boolean), Random)" Url="html/10cb94cd-d8a8-9f57-c145-51cd51ef888a.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="c70bd886-40d9-4478-864a-8cbe25300922" Title="PronounceableGenerator Class" Url="html/918cf640-6552-d4c3-e35d-935f1ab979f3.htm">
+      <HelpTOCNode Id="460fb570-3037-4aa1-84bf-2c5c24e4514d" Title="PronounceableGenerator Methods" Url="html/e268c86e-8eac-3ca9-8c11-5cc1e2971473.htm">
+        <HelpTOCNode Id="3553a79f-f6fe-40ec-8886-3107783643c3" Title="Generate Method " Url="html/d40c2f35-1529-5f4b-3ae8-6c9c03ff1ad5.htm">
+          <HelpTOCNode Title="Generate Method (Int32, IEnumerable(String), Func(String, Boolean))" Url="html/df9f61a5-1020-948e-6cb3-03cbe866e682.htm" />
+          <HelpTOCNode Title="Generate Method (Int32, IReadOnlyCollection(ISet(Char)), Func(String, Boolean))" Url="html/846e0a80-9725-e11f-d42c-0f597b5e76ea.htm" />
+          <HelpTOCNode Title="Generate Method (Int32, IReadOnlyCollection(ISet(Char)), Func(String, Boolean), Random, ITrigramStatistics)" Url="html/7ff760dd-77b2-3886-b7c6-e3a3fd149510.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3d20b79a-33d6-4ef5-a8c8-a0c54b48ee5f" Title="Random Class" Url="html/e684d93b-fe9b-ca4a-f0a7-c23af59ab5e9.htm">
+      <HelpTOCNode Title="Random Constructor " Url="html/f2b06bb7-cf82-12cc-a3eb-ae322bfda3df.htm" />
+      <HelpTOCNode Id="20d2087a-f8a4-4d4a-bfbb-fc4166b38dd4" Title="Random Methods" Url="html/a962374f-00e1-3078-3b97-17745eb85b27.htm">
+        <HelpTOCNode Id="22f870b8-8b3a-4d66-9015-cab43bb249d2" Title="Choose Method " Url="html/5c9203b1-618e-4b35-2008-6a4d0dfd5e39.htm">
+          <HelpTOCNode Title="Choose(T) Method (IEnumerable(T))" Url="html/f147fa1f-1216-0d17-e2b5-854068263571.htm" />
+          <HelpTOCNode Title="Choose(T) Method (ISet(T))" Url="html/4a018638-b042-2214-99fa-3c1cb05b8a6b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetChoiceStream(T) Method " Url="html/8ee48d7b-1ff5-514d-4fd5-8099aa41d28a.htm" />
+        <HelpTOCNode Id="b66f7c70-2e5c-4c31-842c-f2c00d0c2610" Title="GetNum Method " Url="html/002a3f6c-0cc8-484a-82f0-709125df5142.htm">
+          <HelpTOCNode Title="GetNum Method " Url="html/53f809c5-fccb-a1db-9285-3cf5b61aa0f7.htm" />
+          <HelpTOCNode Title="GetNum Method (Int32)" Url="html/a776f91b-0862-4d08-73cb-a796923b6eff.htm" />
+          <HelpTOCNode Title="GetNum Method (UInt32)" Url="html/ed6d0a14-72d0-8463-d8f7-e681d70f06b0.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="GetNumStream Method " Url="html/cae2071c-7e4c-a6ef-704e-690bdcc318c1.htm" />
+        <HelpTOCNode Title="Shuffle(T) Method " Url="html/187df41d-bdb3-b80e-558f-759bdb5d2832.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="dd420a7e-1180-4ae8-863f-e4716e05c1ef" Title="SerializableTrigramStatistics Class" Url="html/af51fc0d-73c2-f9f4-f305-2d0cc7ea21dd.htm">
+      <HelpTOCNode Title="SerializableTrigramStatistics Constructor " Url="html/22b4ca12-7a44-00b7-c1d9-937b0e9aea10.htm" />
+      <HelpTOCNode Id="8d320dec-4db0-45da-ae62-c5e7919595c5" Title="SerializableTrigramStatistics Properties" Url="html/36be0595-4ef7-fff4-0e2f-f54e3f273b76.htm">
+        <HelpTOCNode Title="PrefixWeights Property " Url="html/8d2e7344-b44d-e754-1fc4-5dff5d9844d5.htm" />
+        <HelpTOCNode Title="TrigramWeights Property " Url="html/30f15a5a-86da-6d8d-0db5-bb24e1541fa0.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="SerializableTrigramStatistics Methods" Url="html/6217a47e-98ec-a3d2-a61a-13af72fcd49c.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="72ad2023-7df6-4da8-8816-8675a018fcf6" Title="TrigramFrequencyCounter Class" Url="html/ffff4422-ba91-aaf7-a1cc-63c771132dab.htm">
+      <HelpTOCNode Id="04d1c48b-95fd-4095-ad52-2f474ae6889a" Title="TrigramFrequencyCounter Methods" Url="html/20d92e20-ddeb-dbd1-2bd3-14703948f8d2.htm">
+        <HelpTOCNode Id="934788ab-ec14-4b67-af07-71a5fad3eab4" Title="Count Method " Url="html/b545148f-db39-a056-cbc3-0579ff51af8a.htm">
+          <HelpTOCNode Title="Count Method (IEnumerable(String))" Url="html/b5aa0b1a-94ba-2d66-af65-2b62df56dfb7.htm" />
+          <HelpTOCNode Title="Count Method (String, String)" Url="html/5556ce38-fe4f-df0a-f15d-368cbc104239.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="d28fe4eb-e5c8-4a2c-9f4f-6ee8f73c0eda" Title="TrigramFrequencySerializer Class" Url="html/a8b24af7-9cc1-fcbd-d4b8-b7f484941337.htm">
+      <HelpTOCNode Id="6dc917ea-72b6-4fc3-8531-323168d6fe0d" Title="TrigramFrequencySerializer Methods" Url="html/b810237d-5555-76b1-3976-4228947dda9b.htm">
+        <HelpTOCNode Title="Serialize Method " Url="html/3112a229-5b1e-9d4b-e6cd-2ddf3719be14.htm" />
+        <HelpTOCNode Title="SerializeToZip Method " Url="html/532c6a11-7450-f384-71cd-caf68cb36eae.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="64f4e9d5-8ca2-4d88-b4e8-433d89d549c2" Title="WeightedItem Class" Url="html/fa0b186e-a8d2-b36a-8cf7-b2abf5176a1d.htm">
+      <HelpTOCNode Id="9f5ad59f-01e8-45b7-ad79-08a11d927f3a" Title="WeightedItem Methods" Url="html/4fbebdda-8c2d-9f44-0524-6acfb5a34e32.htm">
+        <HelpTOCNode Title="Create(T) Method " Url="html/e459646f-f630-537b-61da-71be219beb1f.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="00e6acd1-0429-4982-8069-90ea55fc4f87" Title="WeightedItem(T) Class" Url="html/4a3e65b2-3315-5ae8-ccdb-2855d61e64b2.htm">
+      <HelpTOCNode Title="WeightedItem(T) Constructor " Url="html/170dfab7-7184-af84-4bac-f13aa5be72ec.htm" />
+      <HelpTOCNode Id="80b324db-63a4-4866-8037-14ea4e32b887" Title="WeightedItem(T) Properties" Url="html/25ce77df-7596-b772-e9f8-506bbac46994.htm">
+        <HelpTOCNode Title="Item Property " Url="html/773e0d0a-06f7-3113-2eef-ed9a3d3ad3c6.htm" />
+        <HelpTOCNode Title="Weight Property " Url="html/fa73b71f-1067-6fb4-a28c-7564cde7a547.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="WeightedItem(T) Methods" Url="html/375547c7-db62-af2f-1f39-09a083126ca6.htm" />
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

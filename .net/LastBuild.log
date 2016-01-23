@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\Code\MlkPwgen\MlkPwgen.shfbproj" started="1/22/2016 9:40:29 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2015.10.10.0" projectFile="C:\Code\MlkPwgen\MlkPwgen.shfbproj" started="1/22/2016 11:13:17 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -18,25 +18,35 @@ Clearing any prior web/markdown output...
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
-Source: C:\Code\MlkPwgen\MlkPwgen\bin\Release\MlkPwgen.dll
-    Found assembly &#39;C:\Code\MlkPwgen\MlkPwgen\bin\Release\MlkPwgen.dll&#39;
-Source: C:\Code\MlkPwgen\MlkPwgen.FrequencyCounter\bin\Release\MlkPwgen.FrequencyCounter.dll
-    Found assembly &#39;C:\Code\MlkPwgen\MlkPwgen.FrequencyCounter\bin\Release\MlkPwgen.FrequencyCounter.dll&#39;
-SHFB: Warning BE0062: No XML comments files found.  The help file will not contain any member comments.
+Source: C:\Code\MlkPwgen\MlkPwgen\MlkPwgen.csproj
+    Found project &#39;C:\Code\MlkPwgen\MlkPwgen\MlkPwgen.csproj&#39;
+Source: C:\Code\MlkPwgen\MlkPwgen.FrequencyCounter\MlkPwgen.FrequencyCounter.csproj
+    Found project &#39;C:\Code\MlkPwgen\MlkPwgen.FrequencyCounter\MlkPwgen.FrequencyCounter.csproj&#39;
+
+Parsing project files
+    Found assembly &#39;C:\Code\MlkPwgen\MlkPwgen\bin\Debug\MlkPwgen.dll&#39;
+    Found assembly &#39;C:\Code\MlkPwgen\MlkPwgen.FrequencyCounter\bin\Debug\MlkPwgen.FrequencyCounter.dll&#39;
+
+References to include (excluding framework assemblies):
+    None
+
+Copying XML comments files
+    C:\Code\MlkPwgen\MlkPwgen\bin\Debug\MlkPwgen.XML -&gt; C:\Code\MlkPwgen\gh-pages\.net\Working\MlkPwgen.XML
+    C:\Code\MlkPwgen\MlkPwgen.FrequencyCounter\bin\Debug\MlkPwgen.FrequencyCounter.XML -&gt; C:\Code\MlkPwgen\gh-pages\.net\Working\MlkPwgen.FrequencyCounter.XML
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0074
+</plugIn>    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateRefInfo.proj]
-Build started 1/22/2016 9:40:29 PM.
+Build started 1/22/2016 11:13:18 PM.
 Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 PrepareForBuild:
@@ -46,7 +56,7 @@ GenerateRefInfo:
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loaded 2 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 1 namespaces, 12 types, and 47 members
+  Wrote information on 2 namespaces, 12 types, and 47 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2015.10.10.0)
   Copyright c 2006-2015, Microsoft Corporation, All Rights Reserved.
@@ -56,13 +66,13 @@ Done Building Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\GenerateRefIn
 
 Build succeeded.
 
-Time Elapsed 00:00:01.08
-    Last step completed in 00:00:01.3679
+Time Elapsed 00:00:01.14
+    Last step completed in 00:00:01.4647
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - TransformManifest.proj]
-Build started 1/22/2016 9:40:31 PM.
+Build started 1/22/2016 11:13:20 PM.
 Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\TransformManifest.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 TransformManifest:
@@ -83,26 +93,26 @@ Done Building Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\TransformMani
 
 Build succeeded.
 
-Time Elapsed 00:00:00.72
-    Last step completed in 00:00:01.0006
+Time Elapsed 00:00:00.76
+    Last step completed in 00:00:01.0486
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0075
+    Last step completed in 00:00:00.0185
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0025
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0005
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 1/22/2016 9:40:32 PM.
+Build started 1/22/2016 11:13:21 PM.
 Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 GenerateIntermediateTOC:
@@ -114,24 +124,24 @@ Done Building Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\GenerateInter
 
 Build succeeded.
 
-Time Elapsed 00:00:00.50
+Time Elapsed 00:00:00.51
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.7658
+    Last step completed in 00:00:00.8119
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.0767
+    Last step completed in 00:00:00.1251
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
 C:\Code\MlkPwgen\gh-pages\.net\Working\sandcastle.config
-    Last step completed in 00:00:00.0045
+    Last step completed in 00:00:00.0110
 </buildStep>
 <buildStep step="BuildReferenceTopics">
 Building reference help topics...
 [C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe - BuildReferenceTopics.proj]
-Build started 1/22/2016 9:40:33 PM.
+Build started 1/22/2016 11:13:22 PM.
 Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj&quot; on node 1 (default targets).
 Project file contains ToolsVersion=&quot;12.0&quot;. This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion=&quot;4.0&quot;. For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
 BuildReferenceTopics:
@@ -140,151 +150,15 @@ BuildReferenceTopics:
   Portions Copyright c 2006-2015, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-BuildAssembler : warning : ShowMissingComponent: [N:MlkPwgen] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.Classes] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MlkPwgen.Classes.AlphanumericGroups] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MlkPwgen.Classes.Alphanumerics] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MlkPwgen.Classes.Digits] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MlkPwgen.Classes.FullSymbols] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MlkPwgen.Classes.Lower] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MlkPwgen.Classes.Symbols] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [F:MlkPwgen.Classes.Upper] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.CryptoServiceRandom] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.CryptoServiceRandom.#ctor(System.Security.Cryptography.RandomNumberGenerator)] Missing &lt;param name=&quot;rng&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.CryptoServiceRandom.GetNum] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.CryptoServiceRandom.GetNum] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.EmbeddedTrigramStatistics] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.Exists(System.Tuple{System.Char,System.Char})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.Exists(System.Tuple{System.Char,System.Char})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.Exists(System.Tuple{System.Char,System.Char})] Missing &lt;param name=&quot;prefix&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.GetPrefixWeights] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.GetPrefixWeights] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.GetTrigramWeights(System.Tuple{System.Char,System.Char})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.GetTrigramWeights(System.Tuple{System.Char,System.Char})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.EmbeddedTrigramStatistics.GetTrigramWeights(System.Tuple{System.Char,System.Char})] Missing &lt;param name=&quot;prefix&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MlkPwgen.EmbeddedTrigramStatistics.Instance] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.ITrigramStatistics] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.Exists(System.Tuple{System.Char,System.Char})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.Exists(System.Tuple{System.Char,System.Char})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.Exists(System.Tuple{System.Char,System.Char})] Missing &lt;param name=&quot;prefix&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.GetPrefixWeights] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.GetPrefixWeights] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.GetTrigramWeights(System.Tuple{System.Char,System.Char})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.GetTrigramWeights(System.Tuple{System.Char,System.Char})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.ITrigramStatistics.GetTrigramWeights(System.Tuple{System.Char,System.Char})] Missing &lt;param name=&quot;prefix&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.PasswordGenerator] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char})] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char})] Missing &lt;param name=&quot;allowed&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char},MlkPwgen.Random)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char},MlkPwgen.Random)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char},MlkPwgen.Random)] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char},MlkPwgen.Random)] Missing &lt;param name=&quot;allowed&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.Collections.Generic.HashSet{System.Char},MlkPwgen.Random)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.String)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.String)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.String)] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.Generate(System.Int32,System.String)] Missing &lt;param name=&quot;allowed&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;requiredSets&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;requiredSets&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random)] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random)] Missing &lt;param name=&quot;requiredSets&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random)] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PasswordGenerator.GenerateComplex(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.HashSet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.PronounceableGenerator] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;requiredSets&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IEnumerable{System.String},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;requiredSets&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean})] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;param name=&quot;length&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;param name=&quot;requiredSets&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;param name=&quot;predicate&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;param name=&quot;random&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.PronounceableGenerator.Generate(System.Int32,System.Collections.Generic.IReadOnlyCollection{System.Collections.Generic.ISet{System.Char}},System.Func{System.String,System.Boolean},MlkPwgen.Random,MlkPwgen.ITrigramStatistics)] Missing &lt;param name=&quot;stats&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.Random] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.IEnumerable{``0})] Missing &lt;param name=&quot;items&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.ISet{``0})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.ISet{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.ISet{``0})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Choose``1(System.Collections.Generic.ISet{``0})] Missing &lt;param name=&quot;set&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetChoiceStream``1(System.Collections.Generic.ISet{``0})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetChoiceStream``1(System.Collections.Generic.ISet{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetChoiceStream``1(System.Collections.Generic.ISet{``0})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetChoiceStream``1(System.Collections.Generic.ISet{``0})] Missing &lt;param name=&quot;set&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum(System.Int32)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum(System.Int32)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum(System.Int32)] Missing &lt;param name=&quot;maxInclusive&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum(System.UInt32)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum(System.UInt32)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNum(System.UInt32)] Missing &lt;param name=&quot;maxInclusive&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNumStream(System.Int32)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNumStream(System.Int32)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.GetNumStream(System.Int32)] Missing &lt;param name=&quot;maxInclusive&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Shuffle``1(System.Collections.Generic.IReadOnlyList{``0})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Shuffle``1(System.Collections.Generic.IReadOnlyList{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Shuffle``1(System.Collections.Generic.IReadOnlyList{``0})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.Random.Shuffle``1(System.Collections.Generic.IReadOnlyList{``0})] Missing &lt;param name=&quot;items&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.SerializableTrigramStatistics] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MlkPwgen.SerializableTrigramStatistics.PrefixWeights] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MlkPwgen.SerializableTrigramStatistics.TrigramWeights] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.TrigramFrequencyCounter] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencyCounter.Count(System.Collections.Generic.IEnumerable{System.String})] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencyCounter.Count(System.Collections.Generic.IEnumerable{System.String})] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencyCounter.Count(System.Collections.Generic.IEnumerable{System.String})] Missing &lt;param name=&quot;wordlist&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencyCounter.Count(System.String,System.String)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencyCounter.Count(System.String,System.String)] Missing &lt;param name=&quot;wordlistPath&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencyCounter.Count(System.String,System.String)] Missing &lt;param name=&quot;outputPath&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.TrigramFrequencySerializer] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencySerializer.Serialize(MlkPwgen.SerializableTrigramStatistics,System.IO.Stream)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencySerializer.Serialize(MlkPwgen.SerializableTrigramStatistics,System.IO.Stream)] Missing &lt;param name=&quot;stats&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencySerializer.Serialize(MlkPwgen.SerializableTrigramStatistics,System.IO.Stream)] Missing &lt;param name=&quot;output&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencySerializer.SerializeToZip(MlkPwgen.SerializableTrigramStatistics,System.String)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencySerializer.SerializeToZip(MlkPwgen.SerializableTrigramStatistics,System.String)] Missing &lt;param name=&quot;stats&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.TrigramFrequencySerializer.SerializeToZip(MlkPwgen.SerializableTrigramStatistics,System.String)] Missing &lt;param name=&quot;filePath&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.WeightedItem] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.WeightedItem.Create``1(System.UInt32,``0)] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.WeightedItem.Create``1(System.UInt32,``0)] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.WeightedItem.Create``1(System.UInt32,``0)] Missing &lt;returns&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.WeightedItem.Create``1(System.UInt32,``0)] Missing &lt;param name=&quot;weight&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:MlkPwgen.WeightedItem.Create``1(System.UInt32,``0)] Missing &lt;param name=&quot;item&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.WeightedItem`1] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [T:MlkPwgen.WeightedItem`1] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MlkPwgen.WeightedItem`1.Item] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:MlkPwgen.WeightedItem`1.Weight] Missing &lt;summary&gt; documentation [C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj]
-  Processed 84 topic(s)
-  135 warning(s)
+  Processed 86 topic(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 5 of 15.
-  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
+  CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 3 of 30.
 Done Building Project &quot;C:\Code\MlkPwgen\gh-pages\.net\Working\BuildReferenceTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:00:06.90
-    Last step completed in 00:00:07.2108
+Time Elapsed 00:00:07.22
+    Last step completed in 00:00:07.5405
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
@@ -301,11 +175,11 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing website files in C:\Code\MlkPwgen\gh-pages\.net\Working\Output\Website
-Processed 84 HTML files
+Processed 86 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\Code\MlkPwgen\gh-pages\.net\Working\WebKI.xml
 Saving website table of contents to C:\Code\MlkPwgen\gh-pages\.net\Working\WebTOC.xml
-    Last step completed in 00:00:00.9113
+    Last step completed in 00:00:00.9576
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -384,32 +258,32 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\Code\MlkPwgen\gh-pages\.net\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\Code\MlkPwgen\gh-pages\.net\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\Code\MlkPwgen\gh-pages\.net\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.0861
+    Last step completed in 00:00:00.0840
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:00.8883
+</plugIn>    Last step completed in 00:00:00.9353
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 216 files for the website content
-    Last step completed in 00:00:00.3100
+Copied 220 files for the website content
+    Last step completed in 00:00:00.3034
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.0615
+    Last step completed in 00:00:00.0676
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/22/2016 9:40:42 PM.  Total time: 00:00:13.0149
+Build completed successfully at 1/22/2016 11:13:31 PM.  Total time: 00:00:14.0368
 
 </buildStep>
 </shfbBuild>

@@ -8,6 +8,8 @@ Benefits at a glance:
 - Can guarantee that the password contains digits, special characters, or any other set
 - Can generate pronounceable, easier-to-remember passwords
 - Packaged as a .NET library and as a PowerShell module
+- [Comes with API
+Documentation](http://www.codetinkerer.com/MlkPwgen/.net/html/4af4c04a-d525-8e81-133e-679872b3984f.htm)
 
 ## PowerShell
 

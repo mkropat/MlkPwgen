@@ -1,0 +1,18 @@
+{
+  "title": "MlkPwgen",
+  "copyright": "Copyright © Michael Kropat 2017",
+  "description": "Random password generator",
+  "version": "0.2.0-0",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "System.Runtime.Serialization.Json": "4.0.1",
+    "System.Runtime.Serialization.Primitives": "4.1.1"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

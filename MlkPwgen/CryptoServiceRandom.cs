@@ -12,7 +12,7 @@ namespace MlkPwgen
         int _i;
         readonly RandomNumberGenerator _rng;
 
-        public CryptoServiceRandom() : this(new RNGCryptoServiceProvider()) { }
+        public CryptoServiceRandom() : this(RandomNumberGenerator.Create()) { }
 
         public CryptoServiceRandom(RandomNumberGenerator rng)
         {

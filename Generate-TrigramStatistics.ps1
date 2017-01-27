@@ -1,5 +1,6 @@
 ﻿function Main {
-    Add-Type -Path (Join-Path (Get-ScriptDirectory) .\MlkPwgen.FrequencyCounter\bin\Release\MlkPwgen.FrequencyCounter.dll)
+    $dllPath = Get-ChildItem -Recurse -Include 'MlkPwgen.FrequencyCounter.dll' | select -First 1 -ExpandProperty FullName
+    Add-Type -Path $dllPath
 
     $wordlist = Get-Wordlist http://www.freescrabbledictionary.com/english-word-list/download/english.txt
 

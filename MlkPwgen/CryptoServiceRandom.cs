@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 namespace MlkPwgen
 {
     /// <summary>
-    /// Implementation of <see cref="Random"/> that wraps <see cref="RNGCryptoServiceProvider"/>
+    /// Implementation of <see cref="Random"/> that wraps <see cref="RandomNumberGenerator"/>
     /// </summary>
     public sealed class CryptoServiceRandom : Random, IDisposable
     {
@@ -12,7 +12,7 @@ namespace MlkPwgen
         int _i;
         readonly RandomNumberGenerator _rng;
 
-        public CryptoServiceRandom() : this(new RNGCryptoServiceProvider()) { }
+        public CryptoServiceRandom() : this(RandomNumberGenerator.Create()) { }
 
         public CryptoServiceRandom(RandomNumberGenerator rng)
         {

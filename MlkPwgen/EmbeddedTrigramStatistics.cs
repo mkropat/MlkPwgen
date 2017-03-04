@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO.Compression;
+using System.Reflection;
 using System.Runtime.Serialization.Json;
 
 namespace MlkPwgen
@@ -43,7 +44,7 @@ namespace MlkPwgen
 
         SerializableTrigramStatistics LoadStats()
         {
-            var asm = typeof(EmbeddedTrigramStatistics).Assembly;
+            var asm = typeof(EmbeddedTrigramStatistics).GetTypeInfo().Assembly;
             using (var rscStream = asm.GetManifestResourceStream("MlkPwgen.TrigramStatistics.json.gz"))
             using (var zipStream = new GZipStream(rscStream, CompressionMode.Decompress))
             {

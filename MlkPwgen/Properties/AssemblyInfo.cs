@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("MlkPwgen")]
-[assembly: AssemblyDescription("Random password generator")]
+[assembly: AssemblyDescription("Secure random password generator")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Michael Kropat")]
 [assembly: AssemblyProduct("MlkPwgen")]
-[assembly: AssemblyCopyright("Copyright © Michael Kropat 2016")]
+[assembly: AssemblyCopyright("Copyright © Michael Kropat 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("0.2.0.0")]
+[assembly: AssemblyVersion("0.3.0.0")]
 //[assembly: AssemblyFileVersion("0.0.0.0")]

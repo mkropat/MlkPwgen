@@ -11,6 +11,30 @@ Benefits at a glance:
 - [Comes with API
 Documentation](http://www.codetinkerer.com/MlkPwgen/.net/html/4af4c04a-d525-8e81-133e-679872b3984f.htm)
 
+## .NET
+
+The library is [available from NuGet](https://www.nuget.org/packages/MlkPwgen/):
+
+```
+Install-Package MlkPwgen
+```
+
+Import the namespace:
+
+```csharp
+using MlkPwgen;
+```
+
+Then calling the library is as simple as:
+
+```csharp
+Console.WriteLine(PasswordGenerator.Generate());
+```
+
+Check out the [API
+Documentation](http://www.codetinkerer.com/MlkPwgen/.net/html/4af4c04a-d525-8e81-133e-679872b3984f.htm)
+for full details.
+
 ## PowerShell
 
 ### Installation
@@ -70,30 +94,6 @@ Pronounceable passwords can have digits and symbols too:
 PS > New-PronounceablePassword -Digits -Symbols
 ^Norompog2
 ```
-
-## .NET
-
-The library is [available from NuGet](https://www.nuget.org/packages/MlkPwgen/):
-
-```
-Install-Package MlkPwgen
-```
-
-Import the namespace:
-
-```csharp
-using MlkPwgen;
-```
-
-Then calling the library is as simple as:
-
-```csharp
-Console.WriteLine(PasswordGenerator.Generate());
-```
-
-Check out the [API
-Documentation](http://www.codetinkerer.com/MlkPwgen/.net/html/4af4c04a-d525-8e81-133e-679872b3984f.htm)
-for full details.
 
 ## Pronounceable Password Algorithm
 

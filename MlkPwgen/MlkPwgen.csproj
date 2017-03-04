@@ -4,6 +4,16 @@
     <TargetFrameworks>net45;netstandard1.4</TargetFrameworks>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">
+    <DocumentationFile>bin\Release\net45\MlkPwgen.xml</DocumentationFile>
+    <NoWarn>1591;1701;1702;1705</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.4|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\MlkPwgen.xml</DocumentationFile>
+    <NoWarn>1591;1701;1702;1705</NoWarn>
+  </PropertyGroup>
+
   <ItemGroup>
     <None Remove="TrigramStatistics.json.gz" />
   </ItemGroup>

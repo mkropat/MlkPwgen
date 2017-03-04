@@ -1,7 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <Authors>Michael Kropat</Authors>
+    <Copyright>Copyright 2017</Copyright>
+    <Description>Secure random password generator.
+Uses a cryptographically secure PRNG
+Can guarantee that the password contains digits, special characters, or any other set
+Can generate pronounceable, easier-to-remember passwords
+Packaged as a .NET library and as a PowerShell module
+API Documentation available at the project site</Description>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackageId>MlkPwgen</PackageId>
+    <PackageLicenseUrl>https://github.com/mkropat/MlkPwgen/blob/master/LICENSE.txt</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mkropat/MlkPwgen</PackageProjectUrl>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageTags>random password generator pronounceable</PackageTags>
+    <PackageVersion>0.3.0</PackageVersion>
+    <Summary>Secure random password generator</Summary>
     <TargetFrameworks>net45;netstandard1.4</TargetFrameworks>
+    <Title>MlkPwgen</Title>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net45|AnyCPU'">

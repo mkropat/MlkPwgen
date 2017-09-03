@@ -2,6 +2,8 @@
 
 *Secure random password generator for .NET and PowerShell*
 
+[![NuGet](https://img.shields.io/nuget/dt/MlkPwgen.svg)](https://www.nuget.org/packages/MlkPwgen/)
+
 Benefits at a glance:
 
 - Uses a [cryptographically secure PRNG](https://msdn.microsoft.com/en-us/library/system.security.cryptography.rngcryptoserviceprovider)

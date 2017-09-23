@@ -45,7 +45,7 @@ Export-ModuleMember -Function 'New-Password'
 
 function New-PronounceablePassword {
     param(
-        [int] $Length = 10,
+        [int] $Length = 12,
         [switch] $Digits,
         [switch] $Symbols,
         [string[]] $RequiredSets = @(),

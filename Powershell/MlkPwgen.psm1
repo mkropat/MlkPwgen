@@ -48,8 +48,8 @@ function New-PronounceablePassword {
         [int] $Length = 10,
         [switch] $Digits,
         [switch] $Symbols,
-        [string[]] $RequiredSets,
-        [scriptblock] $Predicate
+        [string[]] $RequiredSets = @(),
+        [scriptblock] $Predicate = $null
     )
 
     if ($Digits) {

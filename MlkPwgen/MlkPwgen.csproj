@@ -50,7 +50,7 @@ API Documentation available at the project site</Description>
       <OutputFiles Include="$(OutDir)**\*.dll;$(OutDir)**\*.pdb"></OutputFiles>
     </ItemGroup>
 
-    <Copy SourceFiles="@(OutputFiles)" DestinationFolder="$(MSBuildProjectDirectory)\..\Powershell" />
+    <Copy SourceFiles="@(OutputFiles)" DestinationFolder="$(MSBuildProjectDirectory)\..\Powershell\MlkPwgen" />
   </Target>
 
 </Project>

@@ -41,7 +41,7 @@ for full details.
 
 ### Installation
 
-With [PowerShell 5](https://www.powershellgallery.com/Content/Images/arrow.png), installation is as simple as:
+With PowerShell >5, installation is as simple as:
 
     Install-Module MlkPwgen
 
